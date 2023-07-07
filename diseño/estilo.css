@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: black;
+    color: whitesmoke;
+    
+}
+.resultados-grilla{
+    display: grid;
+    gap: 10rem ;
+    grid-auto-rows: 35rem;
+    grid-template-columns:repeat(auto-fill,minmax(20rem,1fr));
+    grid-auto-flow: dense;
+    
+}
+.grid-item{
+    margin-bottom: 2rem;
+    height: 560px;
+    
+}
+
+.grid-item h3{
+    padding-top: 1rem;
+}
+.btnfav:hover{
+    background-color: green;
+}
+.quitarfav{
+    background-color: red;
+}
+.quitarfav:hover{
+    background-color: red;
+}
+
